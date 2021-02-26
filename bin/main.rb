@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 require 'io/console'
 require 'colorize'
+require 'colorized_string'
 require_relative '../lib/god'
 
 nicename = 'RuboGod'
@@ -12,3 +13,10 @@ puts "\n"
 puts "                             PRESS ENTER TO CONTINUE\n".blue
 $stdin.noecho(&:gets).chomp
 
+test_dir = Dir['../test/*.rb']
+test_dir.each do |i|
+  opener = File.open(i)
+  opener.each_with_index do |num, e|
+    p God.trailing_whitespace(num, e)
+  end
+end

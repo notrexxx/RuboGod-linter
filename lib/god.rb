@@ -2,11 +2,7 @@ require 'io/console'
 require 'colorize'
 
 class God
-    
-    def self.trailing_whitespace (dir, num)
-
-        "#{dir} line:#{num}" " 'Remove trailing white space'\n".red if line.end_with?(' ', "\t")
-    
-    end
-      
+  def self.trailing_whitespace(num, pos)
+    "line:#{pos + 1}  Remove trailing white space" if num.match(/\s{2,}\Z/)
+  end
 end
