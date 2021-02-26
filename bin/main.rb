@@ -9,3 +9,6 @@ puts "\n            RuboGod will warn you about styling errors in your code!".re
 puts "           RuboGod will also suggest you changes to improve your code!\n".yellow
 puts "     (RuboGod in his current state can only test files inside the 'TEST' folder\n"
 puts "\n"
+puts "                             PRESS ENTER TO CONTINUE\n".blue
+$stdin.noecho(&:gets).chomp
+
