@@ -12,6 +12,16 @@
 
 - Ruby
 
+# Linter check list
+
+- Checks for trailing whitespaces
+- Checks for spaces around a method call operator
+- Checks for unnecesary semicolons
+- Checks for spaces after commas
+- Checks for bad indentations
+- Checks for empty blocks
+- Checks for spaces after colon
+
 # Prerequisites
 
 ### On Windows:
