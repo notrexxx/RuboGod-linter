@@ -30,7 +30,7 @@
 ### Windows:
 
 - Start a new Terminal 
-- Go to the directory where you cloned the game
+- Go to the directory where you cloned the RuboGod linter
 - Type:
 ```
  cd bin
@@ -46,7 +46,7 @@ and press ENTER
 ### Mac & Linux::
 
 - Start a new Terminal 
-- Go to the directory where you cloned the game
+- Go to the directory where you cloned the RuboGod linter
 - Type: 
 ```
 cd bin
@@ -59,6 +59,8 @@ and press ENTER
 ```
 
 # Rspec
+
+![screenshot](assets/screenshot3.png)
 
 - Start a new Terminal 
 - Go to the directory where you cloned the repository
