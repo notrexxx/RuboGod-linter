@@ -2,12 +2,12 @@ AllCops:
   Exclude:
     - "Guardfile"
     - "Rakefile"
-    -
+    - "./test/**.rb"
 
   DisplayCopNames: true
 
 Layout/LineLength:
-  Max: 120
+  Max: 125
 Metrics/MethodLength:
   Max: 20
 Metrics/AbcSize:

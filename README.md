@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-### RuboGod-linter
+# RuboGod-linter
  RuboGod is a linter for ruby that will suggest changes to the style of the code
 
 ![screenshot](assets/screenshot2.png)
@@ -12,12 +12,12 @@
 
 - Ruby
 
-### Prerequisites
+## Prerequisites
 
-# On Windows:
+### On Windows:
 - Have Ruby installed
 - Have rspec installed
-# Mac & Linux:
+### Mac & Linux:
 - Latest version of Ruby installed
 - Have rspec installed
 
@@ -25,7 +25,7 @@
 
 - Run this command in your OS terminal: `git clone https://github.com/notrexxx/RuboGod-linter.git` to get a copy of the project.
 
-### Setup
+## Setup
 
 * Clone the repository
 - Go to the "Code" section of this repository and press the green button that says "Code". Copy the URL or the SSH key.
@@ -37,7 +37,7 @@ git clone URL/SSH key
 
 ## Usage
 
-# Windows:
+### Windows:
 
 - Start a new Terminal 
 - Go to the directory where you cloned the game
@@ -53,7 +53,7 @@ and press ENTER
 ```
 and press ENTER
 
-# Mac & Linux::
+### Mac & Linux::
 
 - Start a new Terminal 
 - Go to the directory where you cloned the game
@@ -68,7 +68,7 @@ and press ENTER
  $ ruby main.rb
 ```
 
-### Rspec
+## Rspec
 
 - Start a new Terminal 
 - Go to the directory where you cloned the repository

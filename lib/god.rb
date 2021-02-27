@@ -29,10 +29,10 @@ class God
   def self.comma(name, num, pos)
     case num
     when /,\s/
-        "#{name}:#{pos + 1} : 4) The linter for space after comma has been passed \n".green
+      "#{name}:#{pos + 1} : 4) The linter for space after comma has been passed \n".green
 
     when /,/
-        "#{name}:#{pos + 1} : 4) Please add space after comma\n".red
+      "#{name}:#{pos + 1} : 4) Please add space after comma\n".red
     end
   end
 
