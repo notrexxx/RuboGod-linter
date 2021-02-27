@@ -5,8 +5,8 @@
 ### RuboGod-linter
  RuboGod is a linter for ruby that will suggest changes to the style of the code
 
-![screenshot](screenshot2.png)
-![screenshot](screenshot1.png)
+![screenshot](assets/screenshot2.png)
+![screenshot](assets/screenshot1.png)
 
 ## Built With
 
