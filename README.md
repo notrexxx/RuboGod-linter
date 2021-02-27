@@ -60,7 +60,7 @@ and press ENTER
 
 # Rspec
 
-![screenshot](assets/screenshot4.png)
+![screenshot](assets/screenshot3.png)
 
 - Start a new Terminal 
 - Go to the directory where you cloned the repository
