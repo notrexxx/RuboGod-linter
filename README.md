@@ -8,11 +8,11 @@
 ![screenshot](assets/screenshot2.png)
 ![screenshot](assets/screenshot1.png)
 
-## Built With
+# Built With
 
 - Ruby
 
-## Prerequisites
+# Prerequisites
 
 ### On Windows:
 - Have Ruby installed
@@ -21,21 +21,11 @@
 - Latest version of Ruby installed
 - Have rspec installed
 
-## Getting Started
+# Getting Started
 
 - Run this command in your OS terminal: `git clone https://github.com/notrexxx/RuboGod-linter.git` to get a copy of the project.
 
-## Setup
-
-* Clone the repository
-- Go to the "Code" section of this repository and press the green button that says "Code". Copy the URL or the SSH key.
-- Go to the terminal and enter:
-```
-git clone URL/SSH key
-```
-- If you don't have git you can download this project and unzip it.
-
-## Usage
+# Usage
 
 ### Windows:
 
@@ -68,7 +58,7 @@ and press ENTER
  $ ruby main.rb
 ```
 
-## Rspec
+# Rspec
 
 - Start a new Terminal 
 - Go to the directory where you cloned the repository
@@ -79,7 +69,7 @@ and press ENTER
 and press ENTER
 
 
-## Author
+# Author
 
 👤 **Andres Leon**
 
@@ -88,20 +78,20 @@ and press ENTER
 - LinkedIn: [Emigdio Leon](https://linkedin.com/emigdio-leon-689109195)
 
 
-## Show your support
+# Show your support
 
 Give a ⭐️ if you like this project!
 
-## Contributing
+# Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/notrexxx/RuboGod-linter/issues).
 
-## Acknowledgments
+# Acknowledgments
 
 - Stand Up Team
 
-## 📝 License
+# 📝 License
 
 This project is [MIT](./LICENSE) licensed.
