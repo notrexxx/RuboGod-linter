@@ -3,6 +3,7 @@ require 'io/console'
 require 'colorize'
 require 'colorized_string'
 require_relative '../lib/god'
+require_relative '../lib/badgod'
 
 nicename = 'RuboGod'
 puts "\n                     Welcome to the #{nicename.cyan} styling linter\n"
@@ -20,13 +21,13 @@ test_dir = Dir['../test/badtest.rb']
 test_dir.each do |i|
   file = File.open(i)
   file.each_with_index do |num, e|
-    print God.trailing_whitespace(i, num, e)
-    print God.nav(i, num, e)
-    print God.colon(i, num, e)
-    print God.comma(i, num, e)
-    print God.indent_after(i, num, e)
-    print God.empty(i, num, e)
-    print God.colon_space(i, num, e)
+    print Badgod.trailing_whitespace(i, num, e)
+    print Badgod.nav(i, num, e)
+    print Badgod.colon(i, num, e)
+    print Badgod.comma(i, num, e)
+    print Badgod.indent_after(i, num, e)
+    print Badgod.empty(i, num, e)
+    print Badgod.colon_space(i, num, e)
   end
 end
 puts "\n"
