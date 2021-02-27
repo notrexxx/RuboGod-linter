@@ -19,7 +19,7 @@ class God
   end
 
   def self.colon(name, num, pos)
-    if num.match(/;$\Z/)
+    if num.match(/;$\Z/) || num.match(/;\s\Z/)
       "#{name}:#{pos + 1} : 3) Please remove semicolon\n".red
     else
       "#{name}:#{pos + 1} : 3) The linter for unnecesary semicolons has been passed \n".green

@@ -15,7 +15,6 @@ $stdin.noecho(&:gets).chomp
 
 puts "\n            Attention, #{nicename.on_blue} will test now a file with errors (badtest.rb)\n".cyan
 puts "\n"
-sleep(1)
 
 test_dir = Dir['../test/badtest.rb']
 test_dir.each do |i|
@@ -33,7 +32,6 @@ end
 puts "\n"
 puts "\n            Attention, #{nicename.on_blue} will test now the same file without errors (goodtest.rb)\n".cyan
 puts "\n"
-sleep(1.5)
 
 test_dir2 = Dir['../test/goodtest.rb']
 test_dir2.each do |i|
