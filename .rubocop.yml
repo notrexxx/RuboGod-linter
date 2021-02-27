@@ -2,7 +2,7 @@ AllCops:
   Exclude:
     - "Guardfile"
     - "Rakefile"
-    - "./test/godtest.rb"
+    -
 
   DisplayCopNames: true
 

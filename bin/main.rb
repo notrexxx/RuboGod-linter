@@ -13,8 +13,30 @@ puts "\n"
 puts "                             PRESS ENTER TO CONTINUE\n".blue
 $stdin.noecho(&:gets).chomp
 
-test_dir = Dir['../test/*.rb']
+puts "\n                Atention, #{nicename.on_blue} will test now a file with errors (badtest.rb)\n".cyan
+puts "\n"
+sleep(1)
+
+test_dir = Dir['../test/badtest.rb']
 test_dir.each do |i|
+  opener = File.open(i)
+  opener.each_with_index do |num, e|
+    print God.trailing_whitespace(i, num, e)
+    print God.nav(i, num, e)
+    print God.colon(i, num, e)
+    print God.comma(i, num, e)
+    print God.indent_after(i, num, e)
+    print God.empty(i, num, e)
+    print God.colon_space(i, num, e)
+  end
+end
+puts "\n"
+puts "\n                Atention, #{nicename.on_blue} will test now the same file without errors (goodtest.rb)\n".cyan
+puts "\n"
+sleep(1.5)
+
+test_dir2 = Dir['../test/goodtest.rb']
+test_dir2.each do |i|
   opener = File.open(i)
   opener.each_with_index do |num, e|
     print God.trailing_whitespace(i, num, e)

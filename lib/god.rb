@@ -12,9 +12,9 @@ class God
 
   def self.nav(name, num, pos)
     if num.match(/\ &.|&.\ /)
-      "#{name}:#{pos + 1} : 2) Please remove space between navigator and operator\n".red
+      "#{name}:#{pos + 1} : 2) Please  Avoid using spaces around a method call operator\n".red
     else
-      "#{name}:#{pos + 1} : 2) The linter for spaces between navigator and operator has been passed\n".green
+      "#{name}:#{pos + 1} : 2) The linter for spaces around a method call operators has been passed\n".green
     end
   end
 
@@ -27,23 +27,25 @@ class God
   end
 
   def self.comma(name, num, pos)
-    if num.match(/,$/)
-      "#{name}:#{pos + 1} : 4) Please add space after comma\n".red
-    else
-      "#{name}:#{pos + 1} : 4) The linter for space after comma has been passed \n".green
+    case num
+    when /,\s/
+        "#{name}:#{pos + 1} : 4) The linter for space after comma has been passed \n".green
+
+    when /,/
+        "#{name}:#{pos + 1} : 4) Please add space after comma\n".red
     end
   end
 
   def self.indent_after(name, num, pos)
     if num.match(/^(\s){2}/) && num.match(/^(\s){3,}/)
-      "#{name}:#{pos + 1} : 5) Please add 2 spaces only for indentation\n".red
+      "#{name}:#{pos + 1} : 5) Please use 2 spaces for indentation.\n".red
     else
       "#{name}:#{pos + 1} : 5) The linter for 2 spaces only indentation has been passed\n".green
     end
   end
 
   def self.empty(name, num, pos)
-    if num.match(/\{\n*\}/)
+    if num.match(/\{\n*\}/) && num.match(/\{*\}/)
       "#{name}:#{pos + 1} : 6) Please add content to the block\n".red
 
     else
