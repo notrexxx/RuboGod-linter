@@ -14,7 +14,7 @@ class God
     if num.match(/\ &.|&.\ /)
       "#{name}:#{pos + 1} : 2) Please  Avoid using spaces around a method call operator\n".red
     else
-      "#{name}:#{pos + 1} : 2) The linter for spaces around a method call operators has been passed\n".green
+      "#{name}:#{pos + 1} : 2) The linter for spaces in a method call operators have passed\n".green
     end
   end
 
