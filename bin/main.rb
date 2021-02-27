@@ -13,7 +13,7 @@ puts "\n"
 puts "                             PRESS ENTER TO CONTINUE\n".blue
 $stdin.noecho(&:gets).chomp
 
-puts "\n            Atention, #{nicename.on_blue} will test now a file with errors (badtest.rb)\n".cyan
+puts "\n            Attention, #{nicename.on_blue} will test now a file with errors (badtest.rb)\n".cyan
 puts "\n"
 sleep(1)
 
@@ -31,7 +31,7 @@ test_dir.each do |i|
   end
 end
 puts "\n"
-puts "\n            Atention, #{nicename.on_blue} will test now the same file without errors (goodtest.rb)\n".cyan
+puts "\n            Attention, #{nicename.on_blue} will test now the same file without errors (goodtest.rb)\n".cyan
 puts "\n"
 sleep(1.5)
 
