@@ -19,8 +19,8 @@ sleep(1)
 
 test_dir = Dir['../test/badtest.rb']
 test_dir.each do |i|
-  opener = File.open(i)
-  opener.each_with_index do |num, e|
+  file = File.open(i)
+  file.each_with_index do |num, e|
     print God.trailing_whitespace(i, num, e)
     print God.nav(i, num, e)
     print God.colon(i, num, e)

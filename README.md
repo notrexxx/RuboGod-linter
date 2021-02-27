@@ -14,10 +14,10 @@
 
 ### Prerequisites
 
-* On Windows:
+# On Windows:
 - Have Ruby installed
 - Have rspec installed
-* Mac & Linux:
+# Mac & Linux:
 - Latest version of Ruby installed
 - Have rspec installed
 
@@ -35,7 +35,9 @@ git clone URL/SSH key
 ```
 - If you don't have git you can download this project and unzip it.
 
-### Usage on Windows:
+## Usage
+
+# Windows:
 
 - Start a new Terminal 
 - Go to the directory where you cloned the game
@@ -51,7 +53,7 @@ and press ENTER
 ```
 and press ENTER
 
-### Usage on Mac & Linux::
+# Mac & Linux::
 
 - Start a new Terminal 
 - Go to the directory where you cloned the game
