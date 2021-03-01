@@ -82,11 +82,14 @@ and press ENTER
 - Go to the directory where you cloned the repository
 - Type:
 ```
- rspec
+bundle install
 ```
 and press ENTER
-
-
+- Now, type:
+```
+rspec
+```
+and press ENTER
 # Author
 
 👤 **Andres Leon**
