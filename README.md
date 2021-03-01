@@ -22,6 +22,12 @@
 - Checks for empty blocks
 - Checks for spaces after colon
 
+# How the linter works
+
+- The linter will check for errors on the example test files called goodtest.rb and badtest.rb
+- Run the application and press enter
+
+
 # Prerequisites
 
 ### On Windows:
