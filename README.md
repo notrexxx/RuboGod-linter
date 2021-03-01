@@ -15,12 +15,12 @@
 # Linter check list
 
 - Checks for trailing whitespaces
-- Checks for spaces around a method call operator
+- Checks for spaces around a method call operators
 - Checks for unnecesary semicolons
 - Checks for spaces after commas
 - Checks for bad indentations
 - Checks for empty blocks
-- Checks for spaces after colon
+- Checks for spaces after colons
 
 # How the linter works
 
@@ -30,11 +30,7 @@
 
 # Prerequisites
 
-### On Windows:
 - Have Ruby installed
-- Have rspec installed
-### Mac & Linux:
-- Latest version of Ruby installed
 - Have rspec installed
 
 # Getting Started
@@ -42,11 +38,16 @@
 - Run this command in your OS terminal: `git clone https://github.com/notrexxx/RuboGod-linter.git` to get a copy of the project.
 
 # Usage
-
-### Windows:
+To run the application please:
 
 - Start a new Terminal 
 - Go to the directory where you cloned the RuboGod linter
+- Type:
+```
+bundle install
+```
+press ENTER and wait.
+
 - Type:
 ```
  cd bin
@@ -59,37 +60,20 @@ and press ENTER
 ```
 and press ENTER
 
-### Mac & Linux::
 
-- Start a new Terminal 
-- Go to the directory where you cloned the RuboGod linter
-- Type: 
-```
-cd bin
-```
-and press ENTER
+# Rspec
 
 - Type:
 ```
- $ ruby main.rb
+rspec
 ```
-
-# Rspec
+and press ENTER
 
 ![screenshot](assets/screenshot3.png)
 
 - Start a new Terminal 
 - Go to the directory where you cloned the repository
-- Type:
-```
-bundle install
-```
-and press ENTER
-- Now, type:
-```
-rspec
-```
-and press ENTER
+
 # Author
 
 👤 **Andres Leon**
