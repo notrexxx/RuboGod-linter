@@ -63,6 +63,8 @@ and press ENTER
 
 # Rspec
 
+- Start a new Terminal 
+- Go to the directory where you cloned the RuboGod linter
 - Type:
 ```
 rspec
